@@ -1,0 +1,16 @@
+{
+ "source": {
+  "kind": "file",
+  "ref": "assets/img/united-kalamaria-sima.png"
+ },
+ "source_md5": "69026513c0f01ce12fbfdc3b0eabcea3",
+ "version": "274e7a5b",
+ "tile": "#0B0B0C",
+ "crop": null,
+ "header": [
+  "inline",
+  "index.html",
+  "799729f0b60e73dc43ae0197ceb0cb65"
+ ],
+ "made": "2026-11-18"
+}
