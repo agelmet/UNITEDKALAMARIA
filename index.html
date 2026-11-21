@@ -47,7 +47,15 @@
 @keyframes advon-up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.advon-ck{animation:none}}
 </style>
-</head>
+<style id="phone-fit">@media (max-width:760px){
+#hero{min-height:0!important;height:auto!important;display:flex!important;flex-direction:column;padding-top:0!important}
+#hero .hbg{position:relative!important;inset:auto!important;height:auto!important;margin-top:78px;display:block;order:-1}
+#hero .hbg img{position:static!important;width:100%!important;height:auto!important;object-fit:contain!important;transform:none!important;display:block;animation:none!important}
+#hero .hbg::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:34%;background:linear-gradient(rgba(11,11,12,0),#0b0b0c)}
+#hero .hsh{display:none!important}
+#hero .hc{padding-top:0!important;margin-top:-34px;padding-bottom:44px;min-height:0!important}
+#hero .seal{top:92px!important;right:10px!important;transform:scale(.78);transform-origin:top right}
+#hero .scroll{display:none}}</style></head>
 <body id="top">
 <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
 <div id="intro" aria-hidden="true"><div class="st"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i></div><div class="ic"><svg viewBox="0 0 200 250" aria-hidden="true"><use href="#crest"/></svg><b>UNITED KALAMARIA</b><span>Το ποδόσφαιρο αλλιώς!</span></div></div>
@@ -69,7 +77,7 @@
 
 <main id="main">
 <section class="hero" id="hero">
- <picture class="hbg"><source media="(max-width:760px)" srcset="assets/img/united-kalamaria-akadimia-podosfairou-omada-kinito-600.webp 600w, assets/img/united-kalamaria-akadimia-podosfairou-omada-kinito-900.webp 900w" sizes="100vw"><img src="assets/img/united-kalamaria-akadimia-podosfairou-omada-1300.webp" srcset="assets/img/united-kalamaria-akadimia-podosfairou-omada-900.webp 900w, assets/img/united-kalamaria-akadimia-podosfairou-omada-1300.webp 1300w" sizes="100vw" width="1300" height="975" alt="Τα παιδιά της United Kalamaria με τους προπονητές τους στο γήπεδο" fetchpriority="high"></picture>
+ <picture class="hbg"><img src="assets/img/united-kalamaria-akadimia-podosfairou-omada-1300.webp" srcset="assets/img/united-kalamaria-akadimia-podosfairou-omada-900.webp 900w, assets/img/united-kalamaria-akadimia-podosfairou-omada-1300.webp 1300w" sizes="100vw" width="1300" height="975" alt="Τα παιδιά της United Kalamaria με τους προπονητές τους στο γήπεδο" fetchpriority="high"></picture>
  <div class="hsh" aria-hidden="true"></div>
  <svg class="check" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden="true"><path d="M520 330 L690 540 L1060 -40" pathLength="1"/></svg>
  <div class="wrap hc">
